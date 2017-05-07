@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.matt.finalproject.WaterActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <RadioButton
+        android:text="@string/radio_pisces"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/piscesRadio"
+        android:layout_marginStart="24dp"
+        android:onClick="onRadioClick"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/cancerRadio"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/cancerRadio"
+        android:layout_marginLeft="24dp" />
+
+    <RadioButton
+        android:text="@string/radio_cancer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cancerRadio"
+        android:layout_marginStart="30dp"
+        android:onClick="onRadioClick"
+        app:layout_constraintBaseline_toBaselineOf="@+id/scorpioRadio"
+        tools:layout_constraintBaseline_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toRightOf="@+id/piscesRadio"
+        android:layout_marginLeft="30dp" />
+
+    <RadioButton
+        android:text="@string/radio_scorpio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scorpioRadio"
+        android:layout_marginStart="22dp"
+        android:onClick="onRadioClick"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="41dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/cancerRadio"
+        android:layout_marginLeft="22dp" />
+
+    <TextView
+        android:id="@+id/waterBody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="165dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <Button
+        android:text="@string/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/backButton"
+        android:layout_marginStart="32dp"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="126dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="32dp" />
+
+    <ImageView
+        android:id="@+id/waterPic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toBottomOf="@+id/cancerRadio"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/cancerRadio"
+        android:layout_marginLeft="30dp" />
+</android.support.constraint.ConstraintLayout>

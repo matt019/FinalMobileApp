@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="air_button">Air Sign</string>
+    <string name="water_button">Water Sign</string>
+    <string name="earth_button">Earth Sign</string>
+    <string name="fire_button">Fire Sign</string>
+    <string name="open1">Welcome to Astrology 2.0!</string>
+    <string name="open2">Please Select Your Sign Type</string>
+    <string name="air_desc">(Aquarius, Gemini, Libra)</string>
+    <string name="water_desc">(Pisces, Cancer, Scorpio)</string>
+    <string name="earth_desc">(Taurus, Virgo, Capricorn)</string>
+    <string name="fire_desc">(Aries, Leo, Sagittarius)</string>
+    <string name="fire_pic">Fire Symbol</string>
+    <string name="earth_pic">Earth Symbol</string>
+    <string name="water_pic">Water Symbol</string>
+    <string name="air_pic">Air Symbol</string>
+    <string name="back_button">Go to Main Menu</string>
+    <string name="radio_gem">Gemini</string>
+    <string name="radio_lib">Libra</string>
+    <string name="radio_aqua">Aquarius</string>
+    <string name="body_gem">Gemini is </string>
+    <string name="body_lib">Libra is </string>
+    <string name="body_aqua">Aquarius is </string>
+    <string name="radio_taurus">Taurus </string>
+    <string name="radio_virgo">Virgo </string>
+    <string name="radio_capricorn">Capricorn </string>
+    <string name="radio_pisces">Pisces </string>
+    <string name="radio_cancer">Cancer </string>
+    <string name="radio_scorpio">Scorpio </string>
+    <string name="radio_aries">Aries </string>
+    <string name="radio_leo">Leo </string>
+    <string name="radio_sag">Sagittarius </string>
+    <string name="auth_button">Go to Sign In Page </string>
+    <string name="txtEmail">Email: </string>
+    <string name="txtPass">Password: </string>
+    <string name="create_button">Create Account </string>
+    <string name="signIn_button">Sign In </string>
+    <string name="signOut_button">Sign Out </string>
+
+
+
+
+
+
+
+</resources>

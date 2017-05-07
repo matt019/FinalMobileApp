@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.matt.finalproject.AirActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <RadioButton
+        android:id="@+id/geminiRadio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/radio_gem"
+        android:layout_marginStart="25dp"
+        android:onClick="onRadioClick"
+        app:layout_constraintBaseline_toBaselineOf="@+id/libraRadio"
+        tools:layout_constraintBaseline_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="25dp" />
+
+    <RadioButton
+        android:id="@+id/libraRadio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/radio_lib"
+        android:onClick="onRadioClick"
+        android:layout_marginStart="32dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/aquaRadio"
+        tools:layout_constraintBaseline_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toRightOf="@+id/geminiRadio"
+        android:layout_marginLeft="32dp" />
+
+    <RadioButton
+        android:id="@+id/aquaRadio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onRadioClick"
+        android:text="@string/radio_aqua"
+        android:layout_marginStart="26dp"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="67dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/libraRadio"
+        android:layout_marginLeft="26dp" />
+
+    <TextView
+        android:id="@+id/airbody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:textColor="@android:color/black"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="223dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="25dp" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:text="@string/back_button"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="89dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="36dp" />
+
+    <ImageView
+        android:id="@+id/airPic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:layout_marginTop="31dp"
+        app:layout_constraintRight_toRightOf="@+id/libraRadio"
+        app:layout_constraintTop_toBottomOf="@+id/libraRadio"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+</android.support.constraint.ConstraintLayout>
